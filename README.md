@@ -4,6 +4,13 @@
 ## 시작하기
 ### 사전조건
  - Windows 10 이상
+	* 시스템 로케일이 UTF-8 이어야 함
+		1. 제어판
+		2. **국가 또는 지역**
+		3. 관리자 옵션
+		4. 시스템 로캘 변경
+		5. **세계 언어 지원을 위해 Uniucode UTF-8 사용** 체크
+		6. 재부팅
  - [.NET Framework v4.5](https://dotnet.microsoft.com/download) 이상
  - [Windows Terminal](http://aka.ms/terminal) (추천)
 
@@ -16,5 +23,5 @@
 	```
 4. 설치 스크립트 실행
 	```powershell
-	iwr -useb cdn.eyesprotocol.io/windows | iex
+	iwr -useb get.eyesvault.dev | iex
 	```

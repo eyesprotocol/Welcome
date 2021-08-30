@@ -3,7 +3,7 @@ $env:LC_ALL='C.UTF-8'
 [System.Console]::OutputEncoding = [System.Text.Encoding]::UTF8
 
 # 시스템 환경 구성
-Write-Output "💻 Check system enviroment ..."
+Write-Output "Check system enviroment ..."
 ## Scoop 설치 함수
 function install($app) {
   if (installed $app) {

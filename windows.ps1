@@ -62,4 +62,7 @@ yarn config set "@eyesvault:registry" "https://registry.eyesvault.dev/repository
 yarn config set init-version "0.0.0"
 yarn config set init-license "UNLICENSED"
 
+# Git 글로벌 설정 추가
+git config --global init.defaultBranch main
+
 Write-Output "✔ Success"

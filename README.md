@@ -24,5 +24,5 @@
 	```
 4. 설치 스크립트 실행
 	```powershell
-	iwr -useb get.eyesvault.dev | iex
+	iwr -useb welcome.eyesvault.dev | iex
 	```

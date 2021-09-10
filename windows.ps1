@@ -64,5 +64,7 @@ yarn config set init-license "UNLICENSED"
 
 # Git 글로벌 설정 추가
 git config --global init.defaultBranch main
+git config --global core.eol lf
+git config --global autocrlf input
 
 Write-Output "✔ Success"

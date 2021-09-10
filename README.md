@@ -13,6 +13,7 @@
 		6. 재부팅
  - [.NET Framework v4.5](https://dotnet.microsoft.com/download) 이상
  - [Windows Terminal](http://aka.ms/terminal) (추천)
+ - [PowerShell Core v7](https://github.com/powershell/powershell) (추천)
 
 ### 설치
 1. 관리자 권한으로 **Windows Terminal** 실행

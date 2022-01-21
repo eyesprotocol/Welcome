@@ -49,8 +49,8 @@ scoop bucket add java
 scoop bucket add versions
 
 # 자바 설치
-install("adopt8-hotspot") # OpenJDK v1.8 (벤더: Adoptium, JVM: 오라클 핫스팟) 설치
-install("adopt11-hotspot") # OpenJDK v11 (벤더: Adoptium, JVM: 오라클 핫스팟) 설치
+install("temurin8-jdk") # OpenJDK v1.8 (벤더: Eclipse Adoptium, JVM: 오라클 핫스팟) 설치
+install("temurin11-jdk") # OpenJDK v11 (벤더: Eclipse Adoptium, JVM: 오라클 핫스팟) 설치
 
 # Node.js 설치
 install("nodejs14") # Node.js v14 설치
